@@ -1,0 +1,45 @@
+/* Réinitialisation des marges et espacements */
+body, h1, table, td, th {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Définir les couleurs de base, la police et le fond */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: teal; /* Couleur de fond */
+    line-height: 1.6;
+    text-align: center;
+}
+
+header {
+    padding: 1rem;
+}
+
+h1 {
+    color: white;
+}
+
+/* Style pour la table */
+.job-table {
+    margin: 2rem auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.job-table td, .job-table th {
+    border: 2px solid white;
+    padding: 1rem;
+    color: white;
+}
+
+.job-table a {
+    color: white;
+    text-decoration: none;
+}
+
+.job-table a:hover {
+    text-decoration: underline;
+}
